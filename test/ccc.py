@@ -107,10 +107,10 @@ class Gender(Enum):
 
 class Worker(object):
     def __init__(self, name, gender):
-        self.name = name;
-        self.gender = gender;
+        self.name = name
+        self.gender = gender
 
 
-worker = Worker('zhangsan', Gender.Male);
-print(worker.name);
-print(worker.gender);
+worker = Worker('zhangsan', Gender.Male)
+print(worker.name)
+print(worker.gender)
