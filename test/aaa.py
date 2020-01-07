@@ -61,7 +61,7 @@ def my_max(x, y):
     return max(x, y)
 
 
-print(my_max(12.5, 11.8))
+print(my_max(12, 11))
 
 
 def reg_student(name, address, age=8, city='西安'):
@@ -170,7 +170,7 @@ def calc3(*numbers, **dicts):
     return sum
 
 
-# print('======calc3======', calc3(*list3, **my_dict02))
+ #print('======calc3======', calc3(*list3, **my_dict02))
 
 
 print('================可变参数=====================')
